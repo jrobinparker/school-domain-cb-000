@@ -7,8 +7,9 @@ class School
     @roster = Hash.new
   end
   
-  def roster=(roster)
-    @roster = {}
+  def add_student
+    @roster[new_key] = []
+    @roster[new_key] << new_value_for_value_array
   end
 
 end
