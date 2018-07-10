@@ -8,8 +8,8 @@ class School
   end
   
   def add_student
-    @roster[new_key] = []
-    @roster[new_key] << new_value_for_value_array
+    @roster[:grade] = []
+    @roster[:grade] << :student
   end
 
 end
